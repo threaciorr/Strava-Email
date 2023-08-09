@@ -1,0 +1,102 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            * {
+                box-sizing: border-box;
+            }
+            .debug {
+                border: 1px solid red;
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .font-styles {
+                font-family: sans-serif;
+            }
+            .underline {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#f2f2f2">
+        <mj-wrapper padding="0 0 50px">
+            <mj-section padding="0" background-color="#000">
+                <mj-column>
+                    <mj-image align="left" width="80px" padding="20px 35px" src="http://127.0.0.1:5500/assets/strava_logo.png" alt="logo" />
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#f3f2ed" padding="0">
+                <mj-column>
+                    <mj-divider padding="0"  border-width="40px" border-color="#002e51" />
+                    <mj-text padding="50px 50px 20px 35px" font-weight="500" font-size="35px" font-family="sans-serif">
+                        Own your pragress
+                    </mj-text>
+                    <mj-text padding="0 50px 20px 35px" line-height="25px" font-size="16px" font-family="sans-serif">
+                        With Strava's privacy controls, you decide who sees your activities.
+                    </mj-text>
+                    <mj-button padding="20px 35px" align="left" border-radius="0" background-color="#fb5200" font-family="sans-serif" href="https://www.strava.com/login" >
+                        Explore settings ▸
+                    </mj-button>
+                </mj-column>
+                <mj-column padding="0">
+                    <mj-image fluid-on-mobile="true" height="400px" padding="0" src="http://127.0.0.1:5500/assets/unnamed.png" alt="strava_img" href="https://www.strava.com/login" />
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#002e51" padding="0">
+                <mj-column>
+                    <mj-image fluid-on-mobile="true" height="360px" padding="0" src="http://127.0.0.1:5500/assets/strava.png" alt="strava_img" />
+                </mj-column>
+                <mj-column>
+                    <mj-text color="white" padding="50px 50px 20px 35px" font-weight="500" font-size="35px" font-family="sans-serif">
+                        Share what you want
+                    </mj-text>
+                    <mj-text color="white" padding="0 50px 15px 35px" line-height="20px" font-size="16px" font-family="sans-serif">
+                        Customize wihich activity data you share, including pace, calories burned and heart rate.
+                    </mj-text>
+                    <mj-button padding="10px 0 40px 35px" padding-left="35px" align="left" font-size="16px" border-radius="0" inner-padding="0 0 6px 0" border-bottom="3px solid #fff" background-color="#002e51" font-family="sans-serif" >
+                        Learn More
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#f3f2ed" padding="0">
+                <mj-column>
+                    <mj-image padding="35px" src="http://127.0.0.1:5500/assets/strava_1.jpg" alt="fat_bitch" />
+                    <mj-text padding="0 50px 20px 35px" font-size="33px" font-family="sans-serif">
+                        Edit your map visibility
+                    </mj-text>
+                    <mj-text padding="0 50px 30px 35px" font-size="16px" font-family="sans-serif">
+                        Hide portions of your activity maps so that only you can see.
+                    </mj-text>
+                    <mj-button padding="0 0 40px 35px" align="left" background-color="#f3f2ed" color="#fb5200" inner-padding="0 0 6px 0" font-size="16px" border-bottom="3px solid #fb5200" border-radius="0" font-family="sans-serif">
+                        Set controls
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#fb5200" padding="0">
+                <mj-column>
+                    <mj-text padding="4px">
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section background-color="#000" padding="0">
+                <mj-column padding="35px 0 0 0">
+                    <mj-text padding="0 50px 15px 35px" color="#fff" font-size="25px" font-family="sans-serif">
+                        Get the Strava App
+                    </mj-text>
+                    <mj-image width="125px" align="left" padding="10px 35px" src="http://127.0.0.1:5500/assets/strava_2.png" alt="App Store" />
+                    <mj-image width="125px" align="left" padding="10px 35px" src="http://127.0.0.1:5500/assets/strava_3.png" alt="Google Play" />
+                </mj-column>
+                <mj-column padding="35px 0 45px 0">
+                    <mj-text color="#fff" font-family="sans-serif" line-height="17px" padding="0 35px">
+                        Please do not reply to this email. You are receiving this email because you created a Strava account at <mj-raw><span class="underline">www.strava.com</span></mj-raw> or from our mobile app. If you no longer wish to receive emails please update your Strava <mj-raw><span class="underline">email settings</span></mj-raw> or <mj-raw><span class="underline">unsubscribe</span></mj-raw>.
+                    </mj-text>
+                    <mj-text color="#fff" font-family="sans-serif" line-height="20px" padding="20px 35px">
+                        © 2023 Strava. 208 Utah St, San Francisco, CA 94103
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <!-- <mj-image fluid-on-mobile="true" height="400px" padding="0" src="http://127.0.0.1:5500/assets/unnamed.png" alt="strava_img" /> -->
+        <!-- <mj-image fluid-on-mobile="true" height="360px" padding="0" src="http://127.0.0.1:5500/assets/strava.png" alt="strava_img" /> -->
+    </mj-body>
+</mjml>

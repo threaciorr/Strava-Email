@@ -1,0 +1,13 @@
+<mj-raw>
+    header n footer color: #000
+    
+    main-bg color: #fff
+    
+    other-bg color: #002e51
+    
+    button n spacer(devider) color: #fb5200
+    
+    header color: #000
+    
+    header color: #000
+</mj-raw>
